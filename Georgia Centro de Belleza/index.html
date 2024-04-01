@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgia Centro de Belleza</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #ffcc00;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f368e0;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+            margin: 0 5px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #d63031;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .servicio {
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .servicio h2 {
+            color: #f368e0;
+        }
+        .servicio p {
+            color: #666;
+        }
+        .contacto {
+            background-color: #ff5252;
+            color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            width: 50%;
+            margin: 20px auto;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .contacto:hover {
+            background-color: #ff1744;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .imagen-galeria {
+            margin: 10px;
+        }
+        .imagen-galeria img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .imagen-galeria img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Peluquería BellezaColor</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Reservas</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <section>
+        <div class="servicio">
+            <h2>Cortes de Pelo</h2>
+            <p>¡Déjanos transformar tu cabello y darle un aspecto fresco y moderno!</p>
+        </div>
+        <div class="servicio">
+            <h2>Coloración</h2>
+            <p>Experimenta con una amplia gama de colores y reflejos para un look vibrante.</p>
+        </div>
+        <div class="servicio">
+            <h2>Maquillaje</h2>
+            <p>Nuestros artistas del maquillaje realzarán tu belleza natural para cualquier ocasión especial.</p>
+        </div>
+        <div class="contacto" onclick="location.href='mailto:info@bellezacolor.com';">
+            ¡Reserva tu cita hoy mismo y dale vida a tu cabello!
+        </div>
+        <div class="galeria">
+            <div class="imagen-galeria">
+                <img src="imagen1.jpg" alt="Corte de pelo 1">
+            </div>
+            <div class="imagen-galeria">
+                <img src="imagen2.jpg" alt="Corte de pelo 2">
+            </div>
+            <div class="imagen-galeria">
+                <img src="imagen3.jpg" alt="Corte de pelo 3">
+            </div>
+            <div class="imagen-galeria">
+                <img src="imagen4.jpg" alt="Coloración 1">
+            </div>
+            <div class="imagen-galeria">
+                <img src="imagen5.jpg" alt="Coloración 2">
+            </div>
+            <div class="imagen-galeria">
+                <img src="imagen6.jpg" alt="Maquillaje 1">
+            </div>
+            <!-- Agrega más imágenes de la galería aquí -->
+        </div>
+    </section>
+    <footer>
+        <p>Derechos de autor &copy; 2024 Peluquería BellezaColor</p>
+    </footer>
+</body>
+</html>
